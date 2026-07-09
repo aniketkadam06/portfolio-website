@@ -1,123 +1,100 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aniket Kadam | Projects</title>
 
-    <title>Aniket Kadam | Portfolio</title>
+    <meta
+      name="description"
+      content="Portfolio of Aniket Kadam, Computer Science Engineering student at IIIT Pune."
+    />
 
-    <meta name="description" content="Portfolio of Aniket Kadam, Computer Science Engineering student at IIIT Pune.">
+    <meta
+      name="keywords"
+      content="Portfolio, HTML, CSS, JavaScript, IIIT Pune"
+    />
 
-    <meta name="keywords" content="Portfolio, HTML, CSS, JavaScript, IIIT Pune">
+    <meta name="author" content="Aniket Kadam" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
 
-    <meta name="author" content="Aniket Kadam">
-    <link rel="stylesheet" href="css/style.css">
-
-</head>
-
-<body>
-
-    <a href="#main-content" class="skip-link">
-        Skip to Main Content
-    </a>
+  <body>
+    <a href="#main-content" class="skip-link"> Skip to Main Content </a>
 
     <header>
-        <nav aria-label="Primary Navigation">
+      <nav aria-label="Primary Navigation">
+        <ul>
+          <li><a href="index.html">Home</a></li>
 
-            <ul>
+          <li><a href="about.html">About</a></li>
 
-                <li><a href="index.html">Home</a></li>
+          <li><a href="projects.html">Projects</a></li>
 
-                <li><a href="about.html">About</a></li>
+          <li><a href="resume.html">Resume</a></li>
 
-                <li><a href="projects.html">Projects</a></li>
-
-                <li><a href="resume.html">Resume</a></li>
-
-                <li><a href="contact.html">Contact</a></li>
-
-            </ul>
-
-        </nav>
-
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+      <button
+        class="theme-toggle-btn"
+        id="themeToggle"
+        aria-label="Toggle Theme"
+      >
+        🌙
+      </button>
     </header>
 
-    <main id="main-content" class="container">
-
-    <section class="card">
-
+    <main id="main-content" class="projects-page">
+      <section id="projects-section" class="projects">
         <h2>Projects</h2>
 
         <article class="project-card">
+          <h3>Personal Portfolio Website</h3>
 
-            <h3>Personal Portfolio Website</h3>
+          <p>
+            A responsive portfolio website built using HTML and CSS to showcase
+            my skills, projects, and resume.
+          </p>
 
-            <p>
-                A responsive portfolio website built using HTML and CSS to showcase my skills,
-                projects, and resume.
-            </p>
-
-            <p>
-                <strong>Technologies:</strong> HTML5, CSS3
-            </p>
-
+          <p><strong>Technologies:</strong> HTML5, CSS3</p>
         </article>
 
         <article class="project-card">
+          <h3>Amazon Clone</h3>
 
-    <h3>Amazon Clone</h3>
+          <p>
+            A responsive Amazon homepage clone built to practice modern web
+            development concepts, including layouts, navigation bars, product
+            cards, and responsive design.
+          </p>
 
-    <p>
-        A responsive Amazon homepage clone built to practice modern web development concepts,
-        including layouts, navigation bars, product cards, and responsive design.
-    </p>
+          <p><strong>Technologies:</strong> HTML5, CSS3, JavaScript</p>
 
-    <p>
-        <strong>Technologies:</strong> HTML5, CSS3, JavaScript
-    </p>
+          <h4>Key Features</h4>
 
-    <h4>Key Features</h4>
+          <ul>
+            <li>Responsive design for desktop and mobile devices</li>
 
-    <ul>
+            <li>Amazon-style navigation bar with search functionality</li>
 
-        <li>Responsive design for desktop and mobile devices</li>
+            <li>Product grid with images, prices, and ratings</li>
 
-        <li>Amazon-style navigation bar with search functionality</li>
-
-        <li>Product grid with images, prices, and ratings</li>
-
-        <li>Shopping cart icon and footer similar to Amazon</li>
-
-    </ul>
-
-</article>
-
-        
-
-    </section>
-
-</main>
+            <li>Shopping cart icon and footer similar to Amazon</li>
+          </ul>
+        </article>
+      </section>
+    </main>
 
     <footer>
+      <address>
+        Email:
+        <a href="mailto:aniket@example.com"> aniket@example.com </a>
+      </address>
 
-        <address>
-
-            Email:
-            <a href="mailto:aniket@example.com">
-                aniket@example.com
-            </a>
-
-        </address>
-
-        <p>
-
-            © 2026 Aniket Kadam
-
-        </p>
-
+      <p>© 2026 Aniket Kadam</p>
     </footer>
-
-</body>
-
+    <script src="scrpt.js"></script>
+  </body>
 </html>
