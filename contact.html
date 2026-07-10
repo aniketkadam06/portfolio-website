@@ -102,13 +102,45 @@
 
             <li>Email: <a href="mailto:aniket@example.com">aniket@example.com</a></li>
 
-            <li><a href="https://github.com/">GitHub</a></li>
+            <li><a href="https://github.com/"><svg xmlns="http://www.w3.org/2000/svg"
+     width="20"
+     height="20"
+     viewBox="0 0 24 24"
+     fill="currentColor">
+  <path d="M12 .5C5.65.5.5 5.65.5 12a11.5 11.5 0 0 0 7.86 10.92c.58.1.79-.25.79-.56v-2.17c-3.2.69-3.88-1.54-3.88-1.54-.52-1.33-1.28-1.68-1.28-1.68-1.05-.72.08-.7.08-.7 1.16.08 1.77 1.19 1.77 1.19 1.03 1.76 2.71 1.25 3.37.96.1-.75.4-1.25.72-1.54-2.56-.29-5.25-1.28-5.25-5.7 0-1.26.45-2.29 1.18-3.1-.12-.29-.51-1.47.11-3.07 0 0 .96-.31 3.15 1.18a10.93 10.93 0 0 1 5.74 0c2.19-1.49 3.15-1.18 3.15-1.18.62 1.6.23 2.78.11 3.07.73.81 1.18 1.84 1.18 3.1 0 4.43-2.69 5.41-5.26 5.69.41.35.78 1.03.78 2.08v3.09c0 .31.21.67.8.56A11.5 11.5 0 0 0 23.5 12C23.5 5.65 18.35.5 12 .5z"/>
+</svg> GitHub</a></li>
 
-            <li><a href="https://linkedin.com/">LinkedIn</a></li>
+            <li><a href="https://linkedin.com/"><svg xmlns="http://www.w3.org/2000/svg"
+     width="20"
+     height="20"
+     viewBox="0 0 24 24"
+     fill="currentColor">
+  <path d="M4.98 3.5C4.98 4.88 3.86 6 2.49 6S0 4.88 0 3.5 1.12 1 2.49 1s2.49 1.12 2.49 2.5zM.5 8h4V24h-4V8zm7 0h3.84v2.18h.06c.53-1.01 1.84-2.08 3.79-2.08C19.04 8.1 20 10.3 20 13.3V24h-4v-9.28c0-2.21-.04-5.06-3.08-5.06-3.08 0-3.55 2.4-3.55 4.9V24h-4V8z"/>
+</svg>LinkedIn</a></li>
 
         </ul>
 
     </section>
+    <section class="todo-section">
+
+    <h2>To-Do List</h2>
+
+    <div class="todo-input-group">
+        <input type="text" id="task-input" placeholder="Enter a task">
+        <button id="add-btn">Add</button>
+    </div>
+
+    <div id="filter-buttons">
+        <button class="active">All</button>
+        <button>Active</button>
+        <button>Completed</button>
+    </div>
+
+    <ul id="task-list"></ul>
+
+    <p id="task-counter">0 Tasks Left</p>
+
+</section>
 
 </main>
 
@@ -130,7 +162,7 @@
         </p>
 
     </footer>
-<script src="scrpt.js"></script>
+<script src="js/script.js"></script>
 
 </body>
 
